@@ -55,8 +55,12 @@ def profile_script(script_path):
     # Print the profiling results
     profiler.print_stats()
 
-if __name__ == "__main__":
+def main():
     if len(sys.argv) != 2:
         print("Usage: python profile_script.py script_to_profile.py")
     else:
         profile_script(sys.argv[1])
+        
+        
+if __name__ == "__main__":
+    main()
