@@ -19,6 +19,7 @@ profiler script.py
 ```
 
 This will run `script.py` and output a line-by-line breakdown of execution time.
+
 > NOTE: script.py must have a `main()` function.
 
 ### Example
@@ -70,13 +71,13 @@ if __name__ == "__main__":
 
 ```
 
-run:
+In the terminal, run:
 
 ```
 profiler example.py
 ```
 
-output:
+Output:
 
 ```
 Profiling 'main' function...
