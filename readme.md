@@ -30,7 +30,7 @@ profiler script.py --select
 
 Upon using this command, you'll be presented with the list of functions found in `script.py`. 
 
-![alt text](<Screenshot 2024-02-24 at 4.20.23 PM.png>)
+<img width="1215" alt="Screenshot 2024-02-24 at 4 20 23 PM" src="https://github.com/Wa-lead/profiler/assets/81301826/f86cb759-cbb2-4944-9ce5-ae7f49719029">
 
 > NOTE: `script.py` must have a `main()` function defined, as Profiler will attempt to profile this function.
 
